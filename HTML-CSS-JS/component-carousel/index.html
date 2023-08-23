@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Carousel</title>
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="item">
+        <img src="images/maria.jpg" alt="profile-image" class="author-img">
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore 
+            ab dignissimos ipsum voluptas nulla. Dolorum excepturi quaerat 
+            reprehenderit repellat libero maxime delectus ea minus expedita. 
+          </p>
+          <p class="testimonial-author">Maria de Almeida</p>
+          <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+        </blockquote>
+      </div>
+
+      <div class="item hidden">
+        <img src="images/elon.jpg" alt="profile-image" class="author-img">
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            Excepturi laboriosam facere illo quidem obcaecati iure beatae 
+            sit quibusdam debitis inventore magnam minima necessitatibus, 
+            nostrum hic dolorem voluptate quis sapiente aspernatur.
+          </p>
+          <p class="testimonial-author">Elon Musk</p>
+          <p class="testimonial-job">CEO at SpaceX</p>
+        </blockquote>
+      </div>
+
+      <div class="item hidden">
+        <img src="images/sundar.jpg" alt="profile-image" class="author-img">
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            Vel ipsa atque, quas sit pariatur error aspernatur totam, qui 
+            nesciunt placeat numquam nam eius similique labore aut soluta 
+            eum! Amet, dolorem. Et quaerat ratione error, expedita odio officiis.
+          </p>
+          <p class="testimonial-author">Sundar Pichai</p>
+          <p class="testimonial-job">CEO at Google</p>
+        </blockquote>
+      </div>
+
+      <div class="item hidden">
+        <img src="images/anne.png" alt="profile-image" class="author-img">
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            Culpa magni illum commodi possimus labore iste perferendis? 
+            Beatae quo doloremque maiores ipsam laudantium sint veritatis 
+            quibusdam quas at cumque, assumenda aliquam.
+          </p>
+          <p class="testimonial-author">Anne Hathaway</p>
+          <p class="testimonial-job">Actress</p>
+        </blockquote>
+      </div>
+      
+      <!-- CONTROL BUTTONS -->
+      <button class="btn btn--left">
+        <svg 
+          xmlns="http://www.w3.org/2000/svg" 
+          fill="none" 
+          viewBox="0 0 24 24" 
+          stroke-width="1.5" 
+          stroke="currentColor" 
+          class="btn-icon">
+          <path 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            d="M15.75 19.5L8.25 12l7.5-7.5" 
+          />
+        </svg>
+      </button>
+      <button class="btn btn--right">
+        <svg 
+          xmlns="http://www.w3.org/2000/svg" 
+          fill="none" 
+          viewBox="0 0 24 24" 
+          stroke-width="1.5" 
+          stroke="currentColor" 
+          class="btn-icon">
+          <path 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            d="M8.25 4.5l7.5 7.5-7.5 7.5" 
+          />
+        </svg>        
+      </button>
+      <div class="dots">
+        <button class="dot dot--fill">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
