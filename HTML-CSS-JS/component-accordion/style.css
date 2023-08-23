@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter" sans-serif;
+  color: #1e0303;
+}
+
+.accordion {
+  width: 700px;
+  margin: 100px auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 28px;
+  align-items: center;
+}
+
+.number, .text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.number {
+  color: #8e9091;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.hidden-box {
+  grid-column: 2;
+}
+
+.hidden-box p {
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.hidden-box ul {
+  color: #868e96;
+  margin-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ACCORDION OPEN STATE */
+.open {
+  border-top: 4px solid #087f5b;
+}
+
+.open .number, .open .text {
+  color: #087f5b;
+}
