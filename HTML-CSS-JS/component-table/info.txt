@@ -1,0 +1,6 @@
+In early days, table was used to layout elements on page. In modern
+web development, flex and grid are completely revolutioned layout
+and components.
+
+Tables are no longer used in layout. They are only used if we have
+tabular data semantically!

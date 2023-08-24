@@ -1,0 +1,57 @@
+/*
+  DESIGN RULES
+
+  SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+  MAIN COLOR: #087f5b
+  GREY COLOR: #343a40
+*/
+
+/* global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+
+  /* another way of centering element in the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 700px;
+  /* background-color: red; */
+  margin-top: 100px;
+  text-align: left;
+
+  /* border: 2px solid #000; */
+  border-collapse: collapse;
+}
+
+thead th {
+  width: 25%; /* only applies to cells NOT on rows */
+  background-color: #087f5b;
+}
+
+th, td {
+  /* border: 2px solid #000; */
+  padding: 12px 24px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
