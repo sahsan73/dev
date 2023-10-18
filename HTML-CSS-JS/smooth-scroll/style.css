@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 120rem;
+  /* padding: 2.4rem 2rem 6.4rem 2rem; */
+  margin: 0 auto;
+}
+
+.padding-top-bottom {
+  padding: 12rem 0;
+}
+
+.header {
+  background-color: #fff8c9;
+  height: 6.4rem;
+}
+
+.header-box {
+  max-width: 130rem;
+  padding: 1.6rem;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.logo {
+  background: none;
+  width: 4rem;
+  cursor: pointer;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* sticky behavior of header */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+/********************************************
+ *             SECTION-FEATURE
+********************************************/
+.section-hero {
+  background-color: #e6f0ff;
+}
+
+.hero {
+  max-width: 130rem;
+  height: 90vh;
+  font-size: 1.6rem;
+  padding: 0 1.6rem;
+  text-align: justify;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/********************************************
+ *             SECTION-FEATURE
+********************************************/
+.section-feature {
+  background-color: #edf6ea;
+}
+
+.feature h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.feature p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/********************************************
+ *             SECTION-OPERATION
+********************************************/
+.section-operation {
+  background-color: #ffe1f3;
+}
+
+.operation h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.operation p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/********************************************
+ *             SECTION-CAREERS
+********************************************/
+.section-careers {
+  background-color: #c6fdff;
+}
+
+.careers h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.careers p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/********************************************
+ *             SECTION-CAREERS
+********************************************/
+.section-sign-up {
+  background-color: #fcd0ce;
+}
+
+.sign-up {
+  max-width: 130rem;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.sign-up h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.sign-up p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
