@@ -44,6 +44,10 @@ linkOperation.addEventListener("click", function (e) {
 const allLinks = document.querySelectorAll("a:link");
 allLinks.forEach((link) => {
   link.addEventListener("click", function (e) {
+    /*
+     * Since anchor elements have set the "href attributes, by default,
+     * it will jump to the that part of the page
+     */
     e.preventDefault();
     const href = this.getAttribute("href");
     if (href === "#") {
