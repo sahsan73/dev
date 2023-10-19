@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+
+    <title>Component Tabbed</title>
+  </head>
+
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="tab-container">
+          <button class="btn tab tab--1 tab--active" data-tab="1">
+            <span>01</span>Tab----1
+          </button>
+          <button class="btn tab tab--2" data-tab="2">
+            <span>02</span>Tab----2
+          </button>
+          <button class="btn tab tab--3" data-tab="3">
+            <span>03</span>Tab----3
+          </button>
+        </div>
+
+        <div class="content content--1 content--active">
+          <div class="icon icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-battery-charging"></use>
+            </svg>
+          </div>
+          <h5 class="content__header">
+            Lorem ipsum dolor sit amet - Tab 1 Content.
+          </h5>
+          <p>
+            Accumsan sit amet nulla facilisi morbi tempus iaculis urna. Aliquam
+            ultrices sagittis orci a scelerisque. Quam viverra orci sagittis eu
+            volutpat odio. Consectetur libero id faucibus nisl tincidunt eget
+            nullam non. Tincidunt id aliquet risus feugiat in ante metus.
+            Viverra maecenas accumsan lacus vel. Ultricies integer quis auctor
+            elit sed vulputate mi sit. Dignissim sodales ut eu sem integer
+            vitae. Ipsum a arcu cursus vitae congue mauris. Vitae turpis massa
+            sed elementum.
+          </p>
+        </div>
+
+        <div class="content content--2">
+          <div class="icon icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-bar-chart"></use>
+            </svg>
+          </div>
+          <h5 class="content__header">
+            Volutpat ac tincidunt vitae semper - Tab 2 Content.
+          </h5>
+          <p>
+            Eget mi proin sed libero enim sed faucibus turpis. Mattis molestie a
+            iaculis at. Commodo sed egestas egestas fringilla phasellus faucibus
+            scelerisque eleifend donec. At tellus at urna condimentum mattis
+            pellentesque id nibh tortor. Turpis cursus in hac habitasse platea
+            dictumst quisque sagittis purus. Massa eget egestas purus viverra.
+            Elementum curabitur vitae nunc sed. Fringilla ut morbi tincidunt
+            augue. Porttitor massa id neque aliquam vestibulum morbi blandit
+            cursus.
+          </p>
+        </div>
+        <div class="content content--3">
+          <div class="icon icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-aperture"></use>
+            </svg>
+          </div>
+          <h5 class="content__header">
+            Volutpat blandit aliquam etiam - Tab 3 Content.
+          </h5>
+          <p>
+            Tellus molestie nunc non blandit massa. Semper risus in hendrerit
+            gravida rutrum quisque non tellus. Scelerisque viverra mauris in
+            aliquam sem. Eget mauris pharetra et ultrices neque ornare. Bibendum
+            enim facilisis gravida neque convallis a. Vestibulum mattis
+            ullamcorper velit sed ullamcorper morbi tincidunt. In nulla posuere
+            sollicitudin aliquam ultrices. Vestibulum morbi blandit cursus risus
+            at ultrices mi tempus imperdiet. Orci porta non pulvinar neque
+            laoreet.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
